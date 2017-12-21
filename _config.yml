@@ -1,0 +1,35 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Example
+description: We build web apps. Better.
+author: Mirumee Software
+language: en
+
+# URL
+url: http://example.com
+root: /
+permalink: :title/
+
+# Directory
+source_dir: source
+public_dir: public
+
+# Writing
+default_layout: index
+external_link: true
+
+# Extensions
+theme: new_theme
+
+# BrowserSync config for hexo server
+browsersync:
+  logLevel: "debug"
+
+
+# Deploy
+deploy:
+  type: 
+  repo: 

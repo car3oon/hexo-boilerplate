@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Industry';
+  src: url('/fonts/Industry-Bold.woff2') format('woff2'),
+       url('/fonts/Industry-Bold.woff') format('woff'),
+       url('/fonts/Industry-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Industry';
+  src: url('/fonts/Industry-Book.woff2') format('woff2'),
+       url('/fonts/Industry-Book.woff') format('woff'),
+       url('/fonts/Industry-Book.ttf') format('truetype');
+    font-weight: 400;
+}

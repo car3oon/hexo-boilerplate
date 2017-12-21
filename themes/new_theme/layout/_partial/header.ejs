@@ -1,0 +1,36 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+  <title><%- page.meta.title %></title>
+  <%- partial('meta') %>
+  <%- partial('favicon') %>
+  <link rel="stylesheet" href="/css/app.css"/>
+</head>
+<body>
+  <nav class="navbar navbar-custom" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed"
+        data-toggle="collapse"
+        data-target="#top-menu-collapse">
+          <div id="nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+        <a class="navbar-brand" href="/">
+          <img class="navbar-logo" alt="Example page" src="/img/logo.svg">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="top-menu-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <% for (var i in theme.menu) { %>
+            <li><a href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
+            <% } %>
+        </ul>
+      </div>
+    </div>
+  </nav>

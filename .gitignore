@@ -6,5 +6,5 @@ node_modules/
 public/
 build/
 .deploy*/
-themes/mirumee/source/css
-themes/mirumee/source/js
+themes/new_theme/source/css/
+themes/new_theme/source/js/
